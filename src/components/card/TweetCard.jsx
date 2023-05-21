@@ -11,11 +11,11 @@ import {
   Button,
 } from './TweetCard.styled';
 import decor from 'picture1.png';
-import { useDispatch } from 'react-redux';
-import { addFollower, deleteFollower } from 'redux/operations';
+// import { useDispatch } from 'react-redux';
+// import { addFollower, deleteFollower } from 'redux/operations';
 
 export const TweetCard = card => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const [isFollowing, setIsFollowing] = useState(false);
   console.log(card);
   const { id, name, followers, avatar, tweets } = card;
